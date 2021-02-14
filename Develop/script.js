@@ -22,7 +22,7 @@ function generatePassword() {
   var length = 0;
 
   while (length < 8 || length > 128) {
-    length = prompt('Enter a legnth for your password between 8 - 128', 'Ex: 12');
+    length = prompt('Enter a number between 8 - 128', 'Ex: 12');
   }
 
   var lowerPrompt = confirm('Do you want lowercase letters in your password?');
